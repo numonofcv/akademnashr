@@ -1,10 +1,24 @@
-.site-header{
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url("../fonts/static/RobotoCondensed-Bold.ttf");
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url("../fonts/static/Roboto-Bold.ttf"), url("../fonts/static/Roboto-Regular.ttf"), url("../fonts/static/Roboto-Medium.ttf");
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Roboto', 'Arial';
+    letter-spacing: 0.5px;
+}
+.site-header {
     background-color: #fff;
 }
-.sitenav-list{
+.sitenav-list {
     list-style: none;
 }
-.sitenav-link{
+.sitenav-link {
     font-weight: 500;
     font-size: 13px;
     letter-spacing: 1px;
@@ -12,115 +26,108 @@
     text-decoration: none;
     color: #000;
 }
-.main-link{
+.main-link {
     font-size: 13px;
     line-height: 15px;
     background-color: #ff7500;
-color: #fff;
-text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
-.hero{
+.hero {
     background-color: #252420;
     color: #fff;
 }
-.hero-content{
+.hero-content {
     width: 390px;
 }
-.orange-line{
+.orange-line {
     width: 80px;
     height: 3px;
     background-color: #ff7500;
 }
-.hero-heading{
+.hero-heading {
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 40px;
     line-height: 1.2;
-    letter-spacing: 0.5px;
 }
-.hero-text{
+.hero-text {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.5px;
 }
-.hero-img{
+.hero-img {
     width: 510px;
     height: 510px;
 }
 /* //////////////////////////////////// */
-.feature-heading{
+.feature-heading {
     width: 435px;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 72px;
     font-weight: bold;
     line-height: 1.2;
 }
-.feature-list{
+.feature-list {
     list-style: none;
 }
-.feature-list__item{
+.feature-list__item {
     width: 340px;
 }
-.feature-icon__wrapper{
+.feature-icon__wrapper {
     width: 100px;
     height: 100px;
     background-color: rgba(225, 117, 0, 0.2);
 }
-.featire-image{
+.featire-image {
     width: 56px;
     height: 56px;
     padding: 23px 22px;
     background-color: #FF7500;
 }
-.feature-list__heading{
+.feature-list__heading {
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.5px;
 }
-.feature-list__dec{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px; 
-}
 
 /* ////////////////////////////// */
-.promo{
+.promo {
     background-color: #252420;
     color: #fff;
 }
-.promo-content{
+.promo-content {
     width: 440px;
 }
-.promo-heading{
+.promo-heading {
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 40px;
     font-weight: bold;
     line-height: 48px;
 }
-.promo-dec{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px; 
-}
-.promo-light__word{
+.promo-light__word {
     color: #ff7500;
 }
-.promo-img{
+.promo-img {
     height: 440px;
     height: 440px;
     object-fit: cover;
 }
-.site-footer{
+.site-footer {
     background-color: #f8f8f8;
 }
-.footer-lightline{
+.footer-lightline {
     background-color: rgba(37, 36, 32, 0.5);
 }
-.site-footer ul{
+.site-footer ul {
     list-style: none;
 }
-.site-footer__link-list{
+.site-footer__link-list {
     width: 224px;
+    line-height: 19px;
 }
-.site-footer__link-list a{
-font-size: 16px;
-line-height: 19px;
-text-decoration: none;
-color: #252420;
+.site-footer__link-list a {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #252420;
 }
