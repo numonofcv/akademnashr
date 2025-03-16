@@ -1,0 +1,126 @@
+.site-header{
+    background-color: #fff;
+}
+.sitenav-list{
+    list-style: none;
+}
+.sitenav-link{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+.main-link{
+    font-size: 13px;
+    line-height: 15px;
+    background-color: #ff7500;
+color: #fff;
+text-decoration: none;
+}
+.hero{
+    background-color: #252420;
+    color: #fff;
+}
+.hero-content{
+    width: 390px;
+}
+.orange-line{
+    width: 80px;
+    height: 3px;
+    background-color: #ff7500;
+}
+.hero-heading{
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+.hero-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+.hero-img{
+    width: 510px;
+    height: 510px;
+}
+/* //////////////////////////////////// */
+.feature-heading{
+    width: 435px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.feature-list{
+    list-style: none;
+}
+.feature-list__item{
+    width: 340px;
+}
+.feature-icon__wrapper{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(225, 117, 0, 0.2);
+}
+.featire-image{
+    width: 56px;
+    height: 56px;
+    padding: 23px 22px;
+    background-color: #FF7500;
+}
+.feature-list__heading{
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+.feature-list__dec{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px; 
+}
+
+/* ////////////////////////////// */
+.promo{
+    background-color: #252420;
+    color: #fff;
+}
+.promo-content{
+    width: 440px;
+}
+.promo-heading{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 48px;
+}
+.promo-dec{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px; 
+}
+.promo-light__word{
+    color: #ff7500;
+}
+.promo-img{
+    height: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+.site-footer{
+    background-color: #f8f8f8;
+}
+.footer-lightline{
+    background-color: rgba(37, 36, 32, 0.5);
+}
+.site-footer ul{
+    list-style: none;
+}
+.site-footer__link-list{
+    width: 224px;
+}
+.site-footer__link-list a{
+font-size: 16px;
+line-height: 19px;
+text-decoration: none;
+color: #252420;
+}
