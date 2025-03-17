@@ -19,6 +19,10 @@ body {
     outline: 2px dotted #ff7500;
     outline-offset: 3px;
 }
+ul{
+    padding: 0;
+    margin: 0;
+}
 .container {
     width: 1240px;
     height: 100%;
@@ -65,10 +69,14 @@ body {
     opacity: 0.6;
 }
 .main-link {
+    display: inline-block;
     font-size: 13px;
     line-height: 15px;
+    font-weight: bold;
     background-color: #ff7500;
     color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
     text-decoration: none;
 }
 .main-link:hover {
@@ -81,6 +89,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 80px;
     color: #fff;
     background-color: #252420;
 }
@@ -90,6 +100,7 @@ body {
 .orange-line {
     width: 80px;
     height: 3px;
+    border: 0;
     background-color: #ff7500;
 }
 .hero-heading {
@@ -104,8 +115,12 @@ body {
 .hero-img {
     width: 510px;
     height: 510px;
+    border-radius: 8px;
 }
 /* //////////////////////////////////// */
+.feature{
+    padding: 210px 0;
+}
 .feature-heading {
     width: 435px;
     font-family: "Roboto Condensed", sans-serif;
@@ -125,6 +140,10 @@ body {
 .feature-icon__wrapper {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(225, 117, 0, 0.2);
 }
 .featire-image {
@@ -145,6 +164,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  padding: 120px 0 160px 0;
     background-color: #252420;
     color: #fff;
 }
@@ -164,8 +184,10 @@ body {
     height: 440px;
     height: 440px;
     object-fit: cover;
+    border-radius: 12px;
 }
 .site-footer {
+    padding: 56px 0 56px 0;
     background-color: #f8f8f8;
 }
 .site-footer__head {
@@ -173,13 +195,10 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.footer-lightline {
-    background-color: rgba(37, 36, 32, 0.5);
-}
-.footer-links {
+.social-links{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .social-links a {
     color: #252420;
@@ -194,6 +213,17 @@ body {
 }
 .site-footer ul {
     list-style: none;
+}
+
+.footer-lightline {
+    height: 2px;
+    border: 0;
+    background-color: rgba(37, 36, 32, 0.5);
+}
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .site-footer__link-list {
     width: 224px;
